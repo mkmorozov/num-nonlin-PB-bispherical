@@ -167,7 +167,7 @@ force = 2 * pi * sum( ( ...
 
 relErr = sum( abs( ( delta * fi - coef3 * sinh(fi) - bcsR ) ./ ( delta * fi ) ) ) * dXi * dEta;
 
-# NOTE THE FUCKING SCALING, OK?
+# NOTE THE SCALING, OK?
 # IT MATCHES THE FORCE:
 # F=64*\pi*tanh(zeta_1/4)*tanh(zeta_2/4)*(rho_1*rho_2)/(rho_1+rho_2+D)/delta*exp(-D/delta).
 # Ory writes: Here zeta is the "surface potential" normalised by phi_t, D=h/a 
